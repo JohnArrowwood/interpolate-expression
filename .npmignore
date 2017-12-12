@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+src/
+test/
+dist/test
+tsconfig.json
+tslint.json
+typings.json
+typings
