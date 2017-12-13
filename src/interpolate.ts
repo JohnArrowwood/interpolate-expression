@@ -55,7 +55,6 @@ export function interpolate( s: string, values: GenericObject = {}, wrap: Functi
                 i = close + 2;
             }
             catch (e) {
-                console.log( e );
                 // not a valid expression.  
                 // skip it and move on
                 skipAhead(2);

@@ -7,7 +7,6 @@ import { htmlWrapper } from '../src/html-wrapper';
 
 function verify( expr: Expression, context: VariableValues ) {
     let s = interpolate( expr, context, htmlWrapper );
-    console.log( s );
     expect( s ).to.contain( '<span' );
     expect( s ).to.contain( '</span>' );
     expect( s ).to.contain( 'class="expr-value' );
