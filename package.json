@@ -1,6 +1,6 @@
 {
   "name": "interpolate-expression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace `{{expression}}` in a string with the evaluated value of the expression",
   "main": "dist/index.js",
   "directories": {
