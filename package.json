@@ -20,18 +20,18 @@
   },
   "homepage": "https://github.com/JohnArrowwood/interpolate-expression#readme",
   "dependencies": {
-    "expression-eval": "^1.1.0",
-    "jsep": "^0.3.2",
-    "progressive-eval": "^1.2.0"
+    "expression-eval": "^1.2.0",
+    "jsep": "^0.3.3",
+    "progressive-eval": "^1.2.4"
   },
   "devDependencies": {
-    "@types/chai": "^4.0.9",
-    "@types/mocha": "^2.2.44",
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.45",
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
+    "nyc": "^11.4.1",
     "source-map-support": "^0.5.0",
-    "ts-node": "^4.0.1",
+    "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
   },
   "nyc": {
